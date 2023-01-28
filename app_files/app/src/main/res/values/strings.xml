@@ -2,4 +2,7 @@
     <string name="app_name">Where\'s Tenders?</string>
     <string name="submit_btn">SUBMIT</string>
     <string name="text_input">Enter username</string>
+    <string name="title_activity_view_posts">view_posts</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
 </resources>
