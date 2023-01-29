@@ -14,7 +14,7 @@
         android:background="@drawable/rounded_border"
         android:ems="10"
         android:gravity="center"
-        android:hint="@string/text_input"
+        android:hint="Username"
         android:importantForAutofill="no"
         android:inputType="textPersonName"
         android:textSize="25sp"
@@ -22,10 +22,28 @@
         app:boxBackgroundMode="none"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.482"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.676" />
+        app:layout_constraintVertical_bias="0.587" />
+
+    <EditText
+        android:id="@+id/inputText2"
+        android:layout_width="297dp"
+        android:layout_height="48dp"
+        android:background="@drawable/rounded_border"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Password"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:textSize="25sp"
+        android:translationZ="90dp"
+        app:boxBackgroundMode="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.686" />
 
     <TextView
         android:id="@+id/textView"
@@ -45,35 +63,35 @@
         android:layout_width="293dp"
         android:layout_height="58dp"
         android:backgroundTint="@color/core_orange"
-        android:text="@string/submit_btn"
+        android:text="Login"
         android:textSize="28sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.771" />
+        app:layout_constraintVertical_bias="0.79" />
 
     <TextView
         android:id="@+id/box"
-        android:layout_width="334dp"
-        android:layout_height="162dp"
+        android:layout_width="347dp"
+        android:layout_height="236dp"
         android:background="@drawable/box"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.762" />
+        app:layout_constraintVertical_bias="0.757" />
 
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="297dp"
-        android:layout_height="509dp"
+        android:layout_width="299dp"
+        android:layout_height="456dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.438"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.072"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/tenders_headshot" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
