@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "829796010626",
+    "project_id": "wheres-tenders",
+    "storage_bucket": "wheres-tenders.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829796010626:android:98fad78b456b997344029b",
+        "android_client_info": {
+          "package_name": "com.SwampHacks2023.wherestenders"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "829796010626-cdve126tr00n8unoeub3aedi7d6tb4q1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrDeRl6zrE3LV9q_VsoUMVvMAe6NA4yFQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "829796010626-cdve126tr00n8unoeub3aedi7d6tb4q1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
