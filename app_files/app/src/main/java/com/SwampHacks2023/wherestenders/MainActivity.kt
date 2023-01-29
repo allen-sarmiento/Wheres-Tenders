@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.Button
 
 class MainActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -13,6 +14,12 @@ class MainActivity : AppCompatActivity() {
         val goto_posts = findViewById<Button>(R.id.submit_button)
         goto_posts.setOnClickListener{
             val intent = Intent(this, view_posts::class.java)
+            startActivity(intent)
+        }
+
+        val goto_firestore = findViewById<Button>(R.id.FirestoreBtn)
+        goto_firestore.setOnClickListener {
+            val intent = Intent(this, FirestoreTestActivity::class.java)
             startActivity(intent)
         }
     }
