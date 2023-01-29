@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
 
         val goto_posts = findViewById<Button>(R.id.submit_button)
         goto_posts.setOnClickListener{
-            val intent = Intent(this, view_posts::class.java)
+            val intent = Intent(this, PostActivity::class.java)
             startActivity(intent)
         }
 
