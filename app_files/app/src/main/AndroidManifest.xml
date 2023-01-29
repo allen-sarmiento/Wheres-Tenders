@@ -12,7 +12,7 @@
         android:theme="@style/Theme.WheresTenders"
         tools:targetApi="31">
         <activity
-            android:name=".FirestoreTestActivity"
+            android:name=".PostActivity"
             android:exported="false" />
         <activity
             android:name=".view_posts"
